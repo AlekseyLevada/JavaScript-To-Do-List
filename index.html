@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-logo">
+                <img src="./img/logo/logo.png" alt="header-logo">
+                <h1>
+                    To Do List
+                </h1>
+            </div>
+            <div class="settings">
+                <div id="add-btn" class="setting-button add-btn">
+                    <img src="./img/add-item.svg" alt="add-item">
+                </div>
+                <div id="up-btn" class="setting-button up-btn">
+                    <img src="./img/edit.svg" alt="edit-item">
+                </div>
+            </div>
+        </header>
+        <h2>Current tasks</h2>
+        <main>
+            <div id="tasks-list" class="tasks-list"></div>
+        </main>
+        <footer>
+            <div class="footer-wrapper">
+                <h3>Visit my GitHub at : <a href="https://github.com/AlekseyLevada">Aleksey Levada</a></h3>
+            </div>
+        </footer>
+        <div id="popup-overlay" class="popup-overlay disable">
+            <div id="popup" class="popup"></div>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/gsap.min.js"></script>
+    <script src="./scripts/ScrollTrigger.min.js"></script>
+    <script src="./scripts/gs-animations.js"></script>
+</body>
+
+</html>
