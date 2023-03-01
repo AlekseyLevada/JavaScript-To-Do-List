@@ -16,11 +16,9 @@
 
 header {
     width: 100%;
-    /* height: 80px; */
-    /* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 50%); */
     background: -webkit-linear-gradient(90deg, #4129d9, #6e30d1, #8245bf);
     background: linear-gradient(90deg, #4129d9, #6e30d1, #8245bf);
-    /* color: white; */
+    box-shadow: 0px 3px 5px #454545;
     display: flex;
     align-items: center;
     justify-content: space-between;
