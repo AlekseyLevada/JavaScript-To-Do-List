@@ -36,8 +36,8 @@ function templateAdd(item, index){
             <div class="main-goal">
                 <button onClick="checkedMainTask(${index})" id='btn-status-${index}' class="btn-status"></button>
                 <p id='task-title-${index}'>${item.description}</p>
-                <button onClick="editTask(${index})" class="btn-editTask">Edit</button>
-                <button onClick="delTask(${index})" class="btn-delTask">Del</button>
+                <button onClick="editTask(${index})" class="btn-editTask">Edit Task</button>
+                <button onClick="delTask(${index})" class="btn-delTask">Delete Task</button>
             </div>
             <div id='sub-goal-${index}' class="sub-goal"></div>
         </div>
