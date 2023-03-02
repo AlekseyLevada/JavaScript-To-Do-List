@@ -22,6 +22,8 @@ gsap.from('.settings', {
 })
 
 gsap.from('h2', {
+    yPercent: -40,
+    scale: 0,
     opacity: 0,
     delay: 1.5,
     duration: 1.5,
