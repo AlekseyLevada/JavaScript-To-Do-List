@@ -242,7 +242,7 @@ footer {
     height: 80px;
     margin-top: auto;
     margin-bottom: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(32, 32, 32, 1) 50%);
+    background: linear-gradient(0deg, rgb(50, 50, 50) 0%, rgba(20, 40, 40)50%);
     color: white;
     display: flex;
     align-items: center;
